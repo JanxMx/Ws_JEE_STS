@@ -1,0 +1,5 @@
+------------- Spring Annotations -----------
+http://localhost:8080/Spring-Annotations/userRegistration.htm
+http://localhost:8080/Spring-Annotations/userSuccess.htm
+
+NOTE: It's displaying error with dispatcher servlet.xml but it works fine.

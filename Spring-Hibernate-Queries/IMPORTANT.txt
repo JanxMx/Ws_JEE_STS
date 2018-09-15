@@ -1,0 +1,15 @@
+------------- Spring Hibernate Queries ------------
+
+create table contact
+
+------------------- Test Project -------------------
+1- ejecutar el siguiente link:
+	http://localhost:8080/Spring-Hibernate-Queries/user/list.htm
+
+2- registrar un usuario
+
+---------------------- Test DB ---------------------
+use janx;
+
+select *
+from contact;

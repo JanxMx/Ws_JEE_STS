@@ -1,0 +1,4 @@
+------------- Spring Simple Form Controller Annotation -----------
+http://localhost:8080/Spring-SimpleFormControllerAnnotation
+
+SI FUNCIONA!!!!!!!!!!

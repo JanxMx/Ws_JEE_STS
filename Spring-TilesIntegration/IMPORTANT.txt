@@ -1,0 +1,4 @@
+------------- Spring Tiles Integration -----------
+http://localhost:8080/Spring-TilesIntegration
+
+SI FUNCIONA!!!!!!!!!!

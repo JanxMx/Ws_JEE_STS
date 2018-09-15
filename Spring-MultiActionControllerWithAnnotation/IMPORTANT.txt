@@ -1,0 +1,4 @@
+------------- Spring Multi Action Controller With Annotation -----------
+http://localhost:8080/Spring-MultiActionControllerWithAnnotation
+
+FUNCIONA !!!!!!!!!!

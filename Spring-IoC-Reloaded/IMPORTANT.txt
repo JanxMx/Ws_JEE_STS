@@ -1,0 +1,5 @@
+------------- Spring Ioc2 - Reloaded -----------
+In this case were created two objects
+
+1- Execute Main
+

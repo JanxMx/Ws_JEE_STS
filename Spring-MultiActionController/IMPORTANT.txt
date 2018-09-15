@@ -1,0 +1,4 @@
+------------- Spring Multi Action Controller -----------
+http://localhost:8080/Spring-MultiActionController
+
+FUNCIONA!!!!!!!!!!
