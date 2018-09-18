@@ -1,0 +1,8 @@
+------------- Spring JDBC -----------
+http://localhost:8080/Spring-JDBC/
+http://localhost:8080/Spring-JDBC-Basic/
+
+------------ Update context ---------
+Right click > Properties > Run/Debug settings > Update name / project / context 
+
+FUNCIONA!!!!!!!

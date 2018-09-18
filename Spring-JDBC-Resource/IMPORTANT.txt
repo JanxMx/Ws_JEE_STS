@@ -1,0 +1,11 @@
+------------- Spring JDBC Resource -----------
+http://localhost:8080/Spring-JDBC2/
+http://localhost:8080/Spring-Resource/
+
+FUNCIONA!!!!!!!
+
+Se necesita configurar el resource para MySQL:
+- dispatcher-servlet.xml
+- web.xml 
+
+IMPORTANTE - Investigar como validar este código

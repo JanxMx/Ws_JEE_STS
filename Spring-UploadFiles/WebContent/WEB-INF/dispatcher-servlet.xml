@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- VIEWRESOLVER -->	 
+	<bean id="viewResolver" 
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver" 
+		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:order="1"/>
+	
+	<!-- VALIDATION MESSAGES -->		
+    <bean id="messageSource" 
+    	  class="org.springframework.context.support.ResourceBundleMessageSource" 
+    	  p:basename="message" />
+    	  
+	<!-- CONTROLLER -->	    
+	<context:component-scan base-package="mx.com.test.controller" />
+	
+	<!-- bean id="userService" class="com.baz.service.UserServiceImpl" /-->    
+    
+    <!-- VALIDATOR -->
+    <!-- bean id="userValidator" class="com.baz.validator.UserValidator" /-->
+
+ 	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+	<!-- bean class="mx.com.test.controller.FileUploadController">
+		<property name="formView" value="FileUploadForm" />
+		<property name="successView" value="FileUploadSuccess" /-->
+ 
+		<!-- Map a validator - ->
+		<property name="validator">
+			<bean class="mx.com.test.validator.FileUploadValidator" />
+		</property>
+	<!/bean-->
+          
+	<bean id="fileUploadValidator" class="mx.com.test.validator.FileUploadValidator" />          
+</beans>

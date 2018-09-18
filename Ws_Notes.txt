@@ -1,0 +1,5 @@
+Creator:		Jesus Alejandro Valdez Dominguez
+Date:			2018-09-15 
+Description:	STS exercises
+Java version:	Java 8
+IDE version:	Eclipse Oxygen

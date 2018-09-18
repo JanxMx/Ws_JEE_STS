@@ -1,0 +1,4 @@
+------------- Spring 3 Example -----------
+http://localhost:8080/Spring-Roseindia-Example
+
+SI FUNCIONA!!!!!!!!!!
